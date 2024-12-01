@@ -83,7 +83,7 @@
       <TransformGroup name="teleportNode" translation="0 -1.44772 -4.40624" nodeId="42"/>
       <TransformGroup name="collisions" nodeId="43"/>
       <TransformGroup name="sellingStation" translation="5.05474 0 0" nodeId="44">
-        <Shape name="unloadWoodTrigger" translation="0 0.771 0" shapeId="3" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" objectMask="0x1000000" nodeId="45" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <Shape name="unloadWoodTrigger" translation="0 -0.0277235 0" shapeId="3" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" objectMask="0x1000000" nodeId="45" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
         <Shape name="unloadWoodPlayerTrigger" translation="-5 0.2 -2.61107" shapeId="4" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" clipDistance="600" objectMask="0x100000" nodeId="46" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
         <TransformGroup name="unloadWoodPlayerTriggerMarker" translation="-5 0.2 -2.61107" nodeId="47"/>
         <TransformGroup name="unloadWoodTriggerMarker" nodeId="48"/>
@@ -94,9 +94,9 @@
           <Shape name="warningStripe" translation="5 0 -5" shapeId="7" nodeId="53" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="9"/>
           <Shape name="warningStripe" translation="-5 0 -5" shapeId="8" nodeId="54" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="9"/>
         </TransformGroup>
-        <Shape name="unloadBulkTrigger" shapeId="9" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="55" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
-        <Shape name="unloadPalletTrigger" shapeId="9" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="56" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
-        <Shape name="unloadBaleTrigger" translation="0.0373583 0.511664 0" shapeId="10" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x40000" collisionFilterMask="0xfe3dfb83" nodeId="57" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <Shape name="unloadBulkTrigger" translation="0.5 0.0299268 0" shapeId="9" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="55" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <Shape name="unloadPalletTrigger" translation="0.5 -0.117445 0" shapeId="9" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="56" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <Shape name="unloadBaleTrigger" translation="0.5 0.511664 0" shapeId="10" visibility="false" kinematic="true" trigger="true" collisionFilterGroup="0x40000" collisionFilterMask="0xfe3dfb83" nodeId="57" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
       </TransformGroup>
       <TransformGroup name="buyingStation" nodeId="58">
         <TransformGroup name="buyPlayerTriggerMarker" translation="0 0.2 3.4" nodeId="59"/>

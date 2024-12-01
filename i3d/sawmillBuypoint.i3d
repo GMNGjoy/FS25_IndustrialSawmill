@@ -44,84 +44,84 @@
   <Scene>
     <TransformGroup name="sawmillSellpoint" nodeId="17">
       <TransformGroup name="visuals" nodeId="18">
-        <Shape name="industrialSawmill" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" shapeId="1" clipDistance="250" nodeId="20" castsShadows="true" receiveShadows="true" materialIds="5">
-          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="21" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="7"/>
+        <Shape name="industrialSawmill" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" shapeId="1" clipDistance="250" nodeId="19" castsShadows="true" receiveShadows="true" materialIds="5">
+          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="20" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="7"/>
         </Shape>
-        <Shape name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" shapeId="1" visibility="false" clipDistance="250" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="6">
-          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="23" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="7"/>
+        <Shape name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-2.50448e-06 -0 0" shapeId="1" visibility="false" clipDistance="250" nodeId="21" castsShadows="true" receiveShadows="true" materialIds="6">
+          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="22" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="7"/>
         </Shape>
       </TransformGroup>
-      <TransformGroup name="clearAreas" nodeId="24">
-        <TransformGroup name="clearArea1Start" translation="-5 0 -5" nodeId="25">
-          <TransformGroup name="clearArea1Width" translation="0 0 10" nodeId="26"/>
-          <TransformGroup name="clearArea1Height" translation="6 0 0" nodeId="27"/>
+      <TransformGroup name="clearAreas" nodeId="23">
+        <TransformGroup name="clearArea1Start" translation="-5 0 -5" nodeId="24">
+          <TransformGroup name="clearArea1Width" translation="0 0 10" nodeId="25"/>
+          <TransformGroup name="clearArea1Height" translation="6 0 0" nodeId="26"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="levelAreas" nodeId="28">
-        <TransformGroup name="levelArea1Start" translation="-5 0 -5" nodeId="29">
-          <TransformGroup name="levelArea1Width" translation="0 0 10" nodeId="30"/>
-          <TransformGroup name="levelArea1Height" translation="6 0 0" nodeId="31"/>
+      <TransformGroup name="levelAreas" nodeId="27">
+        <TransformGroup name="levelArea1Start" translation="-5 0 -5" nodeId="28">
+          <TransformGroup name="levelArea1Width" translation="0 0 10" nodeId="29"/>
+          <TransformGroup name="levelArea1Height" translation="6 0 0" nodeId="30"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="indoorAreas" nodeId="32"/>
-      <TransformGroup name="testAreas" nodeId="33">
-        <TransformGroup name="testArea1Start" translation="-5 0 -5" nodeId="34">
-          <TransformGroup name="testArea1End" translation="5.5 2 10" nodeId="35"/>
+      <TransformGroup name="indoorAreas" nodeId="31"/>
+      <TransformGroup name="testAreas" nodeId="32">
+        <TransformGroup name="testArea1Start" translation="-5 0 -5" nodeId="33">
+          <TransformGroup name="testArea1End" translation="5.5 2 10" nodeId="34"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="36">
-        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-5 0 -5" nodeId="37">
-          <TransformGroup name="tipOcclusionUpdateArea1End" translation="6 -9.09495e-15 10" nodeId="38"/>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="35">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-5 0 -5" nodeId="36">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="6 -9.09495e-15 10" nodeId="37"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="teleportNode" translation="0 -1.44772 -4.40624" nodeId="39"/>
-      <TransformGroup name="collisions" nodeId="40"/>
-      <TransformGroup name="sellingStation" translation="5.05474 0 0" nodeId="41"/>
-      <TransformGroup name="buyingStation" nodeId="42">
-        <TransformGroup name="buyPlayerTriggerMarker" translation="0 0.2 3.4" nodeId="43"/>
-        <Shape name="buyPlayerTrigger" translation="0 0.2 3.4" shapeId="3" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" clipDistance="600" objectMask="0x100000" nodeId="44" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
-        <TransformGroup name="warningStripeGroup-wood" translation="-3.03482 0 0" nodeId="45">
-          <Shape name="warningStripe" translation="2 0 5" shapeId="4" nodeId="46" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
-          <Shape name="warningStripe" translation="-2 0 5" shapeId="5" nodeId="47" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
-          <Shape name="warningStripe" translation="2 0 -5" shapeId="6" nodeId="48" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
-          <Shape name="warningStripe" translation="-2 0 -5" shapeId="7" nodeId="49" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
+      <TransformGroup name="teleportNode" translation="0 -1.44772 -4.40624" nodeId="38"/>
+      <TransformGroup name="collisions" nodeId="39"/>
+      <TransformGroup name="sellingStation" translation="5.05474 0 0" nodeId="40"/>
+      <TransformGroup name="buyingStation" nodeId="41">
+        <TransformGroup name="buyPlayerTriggerMarker" translation="0 0.2 3.4" nodeId="42"/>
+        <Shape name="buyPlayerTrigger" translation="0 0.2 3.4" shapeId="3" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" clipDistance="600" objectMask="0x100000" nodeId="43" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <TransformGroup name="warningStripeGroup-wood" translation="-3.03482 0 0" nodeId="44">
+          <Shape name="warningStripe" translation="2 0 5" shapeId="4" nodeId="45" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
+          <Shape name="warningStripe" translation="-2 0 5" shapeId="5" nodeId="46" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
+          <Shape name="warningStripe" translation="2 0 -5" shapeId="6" nodeId="47" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
+          <Shape name="warningStripe" translation="-2 0 -5" shapeId="7" nodeId="48" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="8"/>
         </TransformGroup>
-        <TransformGroup name="palletSpawners" translation="-2.45221 0 0" nodeId="50">
-          <TransformGroup name="spawnSpace1start" translation="1.1 0 5" rotation="-0 90 0" nodeId="51">
-            <TransformGroup name="spawnSpace1end" translation="10 0 0" nodeId="52"/>
+        <TransformGroup name="palletSpawners" translation="-2.45221 0 0" nodeId="49">
+          <TransformGroup name="spawnSpace1start" translation="1.1 0 5" rotation="-0 90 0" nodeId="50">
+            <TransformGroup name="spawnSpace1end" translation="10 0 0" nodeId="51"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace2start" translation="1.1 0.75 5" rotation="-0 90 0" nodeId="53">
-            <TransformGroup name="spawnSpace2end" translation="10 0 2.27374e-15" nodeId="54"/>
+          <TransformGroup name="spawnSpace2start" translation="1.1 0.75 5" rotation="-0 90 0" nodeId="52">
+            <TransformGroup name="spawnSpace2end" translation="10 0 2.27374e-15" nodeId="53"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace3start" translation="1.1 1.5 5" rotation="-0 90 0" nodeId="55">
-            <TransformGroup name="spawnSpace3end" translation="10 0 2.27374e-15" nodeId="56"/>
+          <TransformGroup name="spawnSpace3start" translation="1.1 1.5 5" rotation="-0 90 0" nodeId="54">
+            <TransformGroup name="spawnSpace3end" translation="10 0 2.27374e-15" nodeId="55"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace4start" translation="0 0 5" rotation="-0 90 0" nodeId="57">
-            <TransformGroup name="spawnSpace4end" translation="10 0 2.27374e-15" nodeId="58"/>
+          <TransformGroup name="spawnSpace4start" translation="0 0 5" rotation="-0 90 0" nodeId="56">
+            <TransformGroup name="spawnSpace4end" translation="10 0 2.27374e-15" nodeId="57"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace5start" translation="0 0.75 5" rotation="-0 90 0" nodeId="59">
-            <TransformGroup name="spawnSpace5end" translation="10 0 2.27374e-15" nodeId="60"/>
+          <TransformGroup name="spawnSpace5start" translation="0 0.75 5" rotation="-0 90 0" nodeId="58">
+            <TransformGroup name="spawnSpace5end" translation="10 0 2.27374e-15" nodeId="59"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace6start" translation="0 1.5 5" rotation="-0 90 0" nodeId="61">
-            <TransformGroup name="spawnSpace6end" translation="10 0 2.27374e-15" nodeId="62"/>
+          <TransformGroup name="spawnSpace6start" translation="0 1.5 5" rotation="-0 90 0" nodeId="60">
+            <TransformGroup name="spawnSpace6end" translation="10 0 2.27374e-15" nodeId="61"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace7start" translation="-1.1 0 5" rotation="-0 90 0" nodeId="63">
-            <TransformGroup name="spawnSpace7end" translation="10 0 2.27374e-15" nodeId="64"/>
+          <TransformGroup name="spawnSpace7start" translation="-1.1 0 5" rotation="-0 90 0" nodeId="62">
+            <TransformGroup name="spawnSpace7end" translation="10 0 2.27374e-15" nodeId="63"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace8start" translation="-1.1 0.75 5" rotation="-0 90 0" nodeId="65">
-            <TransformGroup name="spawnSpace8end" translation="10 0 2.27374e-15" nodeId="66"/>
+          <TransformGroup name="spawnSpace8start" translation="-1.1 0.75 5" rotation="-0 90 0" nodeId="64">
+            <TransformGroup name="spawnSpace8end" translation="10 0 2.27374e-15" nodeId="65"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace9start" translation="-1.1 1.5 5" rotation="-0 90 0" nodeId="67">
-            <TransformGroup name="spawnSpace9end" translation="10 0 2.27374e-15" nodeId="68"/>
+          <TransformGroup name="spawnSpace9start" translation="-1.1 1.5 5" rotation="-0 90 0" nodeId="66">
+            <TransformGroup name="spawnSpace9end" translation="10 0 2.27374e-15" nodeId="67"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace10start" translation="-2.2 0 5" rotation="-0 90 0" nodeId="69">
-            <TransformGroup name="spawnSpace10end" translation="10 0 2.27374e-15" nodeId="70"/>
+          <TransformGroup name="spawnSpace10start" translation="-2.2 0 5" rotation="-0 90 0" nodeId="68">
+            <TransformGroup name="spawnSpace10end" translation="10 0 2.27374e-15" nodeId="69"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace11start" translation="-2.2 0.75 5" rotation="-0 90 0" nodeId="71">
-            <TransformGroup name="spawnSpace11end" translation="10 0 2.27374e-15" nodeId="72"/>
+          <TransformGroup name="spawnSpace11start" translation="-2.2 0.75 5" rotation="-0 90 0" nodeId="70">
+            <TransformGroup name="spawnSpace11end" translation="10 0 2.27374e-15" nodeId="71"/>
           </TransformGroup>
-          <TransformGroup name="spawnSpace12start" translation="-2.2 1.5 5" rotation="-0 90 0" nodeId="73">
-            <TransformGroup name="spawnSpace12end" translation="10 0 2.27374e-15" nodeId="74"/>
+          <TransformGroup name="spawnSpace12start" translation="-2.2 1.5 5" rotation="-0 90 0" nodeId="72">
+            <TransformGroup name="spawnSpace12end" translation="10 0 2.27374e-15" nodeId="73"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
