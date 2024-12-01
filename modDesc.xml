@@ -17,9 +17,9 @@ Category: Productions
 Price: $10,000
 Monthly upkeep: $9
 Production Recipes:
-- Planks (240 cycles / Month, $24 / Month) : 100 Wood = 90 Planks + 10 Wood Chips
-- Long Planks (240 cycles / Month, $48 / Month) : 100 Wood = 93 Long Planks + 7 Wood Chips
-- Wood Beams (240 cycles / Month, $48 / Month) : 100 Wood = 94 Wood Beam + 6 Wood Chips
+- Wood (Planks) (240 cycles / Month, $24 / Month) : 100 Wood = 90 Planks + 10 Wood Chips
+- Wood (Planks Long) (240 cycles / Month, $48 / Month) : 100 Wood = 93 Planks Long + 7 Wood Chips
+- Wood (Wood Beam) (240 cycles / Month, $48 / Month) : 100 Wood = 94 Wood Beam + 6 Wood Chips
 - Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
 Configurations: Visual (Default | Rusty but trusty) 
 
@@ -27,22 +27,22 @@ INDUSTRIAL SAWMILL SELL
 Category: Sellpoints
 Price: $2,000
 Monthly upkeep: $3
-Products Accepted: Wood, Planks, Long Planks, Wood Beams, Prefab Walls, Wood Chips
+Products Accepted: Wood, Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations:  Visual (Default | Rusty but trusty)
 
 INDUSTRIAL SAWMILL BUY
 Category: Containers
 Price: $4,000
 Monthly upkeep: $3
-Products Sold: Planks, Long Planks, Wood Beams, Prefab Walls, Wood Chips
+Products Sold: Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations:  Visual (Default | Rusty but trusty)
 
 INDUSTRIAL SAWMILL BUY & SELL
 Category: Sellpoints
 Price: $6,000
 Monthly upkeep: $6
-Products Accepted: Wood, Planks, Long Planks, Wood Beams, Prefab Walls, Wood Chips
-Products Sold: Planks, Long Planks, Wood Beams, Prefab Walls, Wood Chips
+Products Accepted: Wood, Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
+Products Sold: Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations: Visual (Default | Rusty but trusty)
 
 Placement Note:
@@ -50,31 +50,50 @@ If you wish to place a shed over the sawmill - place the shed first, then using 
 
 For license & feedback, please visit
 GitHub link: https://github.com/GMNGjoy/FS25_IndustrialSawmill
-        ]]></en>
+]]></en>
         <de><![CDATA[
 Bist du es leid, über die gesamte Karte zu fahren, um dein Holz zu verkaufen, oder willst du ein kleines und effizientes Sägewerk direkt auf deinem Hof? Dann ist diese Mod genau das Richtige für dich.
 
-Ein Sägewerk in der Größe eines Gehöfts für deine Farm mit zwei Versionen, die entweder als Direktverkaufspunkt oder als Sägewerksproduktion dienen. Je nach dem Stil deiner Farm ist das Sägewerk auch in einem „rostigen aber treuen“ Look erhältlich.
+Ein Sägewerk in der Größe eines Gehöfts für deine Farm mit zwei Versionen, die entweder als Direktverkaufspunkt oder als Sägewerksproduktion dienen. Je nach dem Stil deiner Farm ist das Sägewerk auch in einem „rostigen aber zuverlässigen" Look erhältlich.
 
-Platzierbare Objekte:
-- Industrielles Sägewerk (Verkaufspunkt) : Verkaufspunkt für Holz, Hackschnitzel und Holzprodukte. Erhalte einen leichten Bonus für den Direktverkauf auf deinem Hof.
-- Industrielles Sägewerk (Produktion) : Produziert Bretter und ermöglicht den direkten Verkauf oder die Lieferung Ihres Holzes. Produzieren Sie auch lange Bretter und Holzbalken, wenn die Platin-Edition aktiviert ist!
+INDUSTRIELLES SÄGEWERK (Produktion)
+Kategorie: Fabriken
+Preis: $10,000
+Monatliche Unterhaltskosten: $9
+Produktionsrezepte:
+- Holz (Bretter) (240 Zyklen / Monat, 24€ / Monat) : 100 Holz = 90 Bretter + 10 Hackschnitzel
+- Holz (Holzbalken) (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 93 Lange Bretter + 7 Hackschnitzel
+- Holz (Lange Bretter) (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 94 Holzbalken + 6 Hackschnitzel
+- Holz Lieferung (240 Zyklen / Monat, 12€ / Monat) : 100 Holz = 100 Holz
+Konfigurationen: Erscheinungsbild (Standard | Rostig, aber zuverlässig) 
 
-Stile:
-- Industrielles Sägewerk: Der Standard-Look für das Sägewerk mit einem allgemeinen „gebrauchten“ Look. Dies ist kein Ausstellungssägewerk, sondern ein funktionierendes Sägewerk!
-- Verrostetes Industriesägewerk: Die werden nicht mehr so hergestellt wie früher! Dieses Sägewerk hat den Test der Zeit überstanden, ist aber durchgerostet, nachdem die Farbe abgeblättert ist. Funktioniert aber noch!
+INDUSTRIELLES SÄGEWERK (Ankauf)
+Kategorie: Verkaufsstellen
+Preis: $2,000
+Monatliche Unterhaltskosten: $3
+Verkaufbare Produkte: Holz, Bretter, Lange Bretter, Holzbalken, Fertigwände, Hackschnitzel
+Konfigurationen: Erscheinungsbild (Standard | Rostig, aber zuverlässig)
 
-Rezepte:
-- Bretter (240 Zyklen / Monat, 24€ / Monat) : 100 Holz = 90 Bretter + 10 Hackschnitzel
-- Lange Bretter (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 93 Lange Bretter + 7 Hackschnitzel
-- Holzbalken (240 Zyklen / Monat, 48€ / Monat) : 100 Holz = 94 Holzbalken + 6 Hackschnitzel
-- Holz-Verteilung (240 Zyklen / Monat, 12€ / Monat) : 100 Holz = 100 Holz
+INDUSTRIELLES SÄGEWERK (Verkauf)
+Kategorie: Container
+Preis: $4,000
+Monatliche Unterhaltskosten: $3
+Angebotene Produkte: Bretter, Lange Bretter, Holzbalken, Fertigwände, Hackschnitzel
+Konfigurationen: Erscheinungsbild (Standard | Rostig, aber zuverlässig)
 
-Hinweis zur Platzierung: Wenn du einen Schuppen über dem Sägewerk platzieren möchtest, platziere zuerst den Schuppen und dann das Sägewerk im Freiplatzierungsmodus unter dem Schuppen.
+INDUSTRIELLES SÄGEWERK (Händler)
+Kategorie: Verkaufsstellen
+Preis: $6,000
+Monatliche Unterhaltskosten: $6
+Verkaufbare Produkte: Holz, Bretter, Lange Bretter, Holzbalken, Fertigwand, Hackschnitzel
+Angebotene Produkte: Bretter, Lange Bretter, Holzbalken, Fertigwände, Hackschnitzel
+Konfigurationen: Erscheinungsbild (Standard | Rostig, aber zuverlässig)
+
+Hinweis zur Platzierung: Wenn du eine Halle über dem Sägewerk platzieren möchtest, platziere zuerst die Halle und dann das Sägewerk mit aktiviertem Freien Modus unter dem Hallendach.
 
 Besucht für Lizenz & Feedback bitte
 GitHub-Link: https://github.com/GMNGjoy/FS25_IndustrialSawmill
-        ]]></de>
+]]></de>
     </description>
     <iconFilename>icon_industrialSawmill.dds</iconFilename>
     <multiplayer supported="true"/>

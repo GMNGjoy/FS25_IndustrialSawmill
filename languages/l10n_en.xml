@@ -2,15 +2,17 @@
 <l10n>
     <translationContributors/>
     <texts>
-        <text name="shopItem_industrialSawmill" text="Industrial Sawmill" />
-        <text name="shopItem_industrialSawmillSell" text="Industrial Sawmill Sell" />
-        <text name="shopItem_industrialSawmillBuy" text="Industrial Sawmill Buy" />
-        <text name="shopItem_industrialSawmillBuySell" text="Industrial Sawmill Warehouse" />
+        <text name="shopItem_industrialSawmill" text="Industrial Sawmill (Production)" />
+        <text name="shopItem_industrialSawmillSell" text="Industrial Sawmill (Sell Here)" />
+        <text name="shopItem_industrialSawmillBuy" text="Industrial Sawmill (Buy Here)" />
+        <text name="shopItem_industrialSawmillBuySell" text="Industrial Sawmill (Warehouse)" />
            
-        <text name="function_woodProductSell" text="Direct sell wood, palletized wood products and wood chips" />
+        <text name="function_woodProductSell" text="Direct sell wood, palletized wood products and wood chips!" />
         <text name="function_woodProductBuy" text="Don't want to do forestry? Buy palletized wood products here!" />
         
         <text name="configuration_visual" text="Sawmill Visual" />
         <text name="configuration_rusted" text="Rusty but trusty" />
+
+        <text name="delivery" text="Delivery" />
     </texts>
 </l10n>

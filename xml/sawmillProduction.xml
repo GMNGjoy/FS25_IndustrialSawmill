@@ -96,7 +96,7 @@
                     <output fillType="WOODCHIPS" amount="7" />
                 </outputs>
             </production>
-            <production id="delivery" name="%s Delivery" params="$l10n_fillType_wood" cyclesPerHour="10" costsPerActiveHour="0.5">
+            <production id="delivery" name="%s %s" params="$l10n_fillType_wood|$l10n_delivery" cyclesPerHour="10" costsPerActiveHour="0.5">
                 <inputs>
                     <input fillType="WOOD" amount="100" />
                 </inputs>
