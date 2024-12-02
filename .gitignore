@@ -1,4 +1,5 @@
 *.zip
+*.afphoto
 # _dev
 _assets
 _artwork

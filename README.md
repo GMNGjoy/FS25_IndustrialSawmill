@@ -51,35 +51,24 @@ Included in this mod is a color adjustment to the standard yellow wanrning strip
 ## Installation Instructions
 1. Download this package from GitHub on the releases page, save the `FS25_IndustrialSawmill.zip` into your mod folder.
 2. Launch the game, and activate the mod.
+3. Place the type of sawmill that you'd like, choose the "Rusty but trusty" version in the customization menu.
 
 _Enjoy!_
 
 
 ## Screenshots
 
-![Industrial Sawmill Production](/_screenshots/industrialSawmill_3_production.png)
-_Industrial Sawmill Production in the open - making Planks, Long Planks and Wood Beams, with a byproduct of Wood Chips_
+![An industrial-scale sawmill wherever you need it... even the top of a mountain!](/_screenshots/screenshot_1_production.png)
 <br/><br/>
 
-![Industrial Sawmill Sellpoint](/_screenshots/industrialSawmill_1.png)
-_Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+![Sometimes all you need is to sell your wood quickly... why cart it all the way across the map](/_screenshots/screenshot_2_sellpoint.png)
 <br/><br/>
 
-![Industrial Sawmill Buypoint](/_screenshots/industrialSawmill_1.png)
-_Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+![Maybe forestry isn't your thing - buying your way through the constructon process is another way to go!](/_screenshots/screenshot_3_buypoint.png)
 <br/><br/>
 
-![Industrial Sawmill Warehouse](/_screenshots/industrialSawmill_1.png)
-_Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+![A buying and selling point in one will be a hub of activity... even if the sawmill is rusty - but still trusty!](/_screenshots/screenshot_4_buy_sell.png)
 <br/><br/>
 
-![Old Industrial Sawmill Sellpoint](/_screenshots/industrialSawmill_2_old.png)
-_Old & Rusty Industrial Sawmill Sellpoint accepting Wood, Wood Chips, and other wood products_
+![The Industrial Sawmill production is not only faster, but holds more, and can deliver wood to other productions at the same time!](/_screenshots/screenshot_5_productionScreen.png)
 <br/><br/>
-
-![Old Industrial Sawmill Production](/_screenshots/industrialSawmill_4_old_production.png)
-_Old & Rusty Industrial Sawmill Production in the open - making Planks, Long Planks and Wood Beams, with a byproduct of Wood Chips_
-<br/><br/>
-
-![Industrial Sawmill Production Details](/_screenshots/industrialSawmill_5_production_detail.png)
-_A detail shot of the Industrial Sawmill Production in gameplay - showing stacks of  Planks, Long Planks and Wood Beams, with Wood Chips filling up the two bins_

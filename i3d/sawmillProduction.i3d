@@ -23,7 +23,7 @@
 
 
   <Materials>
-    <Material name="box_mat" materialId="175">
+    <Material name="box_mat" materialId="5">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <Glossmap fileId="14"/>
@@ -60,167 +60,167 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="sawmillProduction" nodeId="35">
-      <TransformGroup name="visuals" nodeId="36">
-        <Shape name="industrialSawmill" translation="0 0.000192599 0" rotation="-180 -1.86693e-05 -180" shapeId="1" clipDistance="250" nodeId="50" castsShadows="true" receiveShadows="true" materialIds="7">
-          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="51" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="9"/>
+    <TransformGroup name="sawmillProduction" nodeId="31">
+      <TransformGroup name="visuals" nodeId="32">
+        <Shape name="industrialSawmill" translation="0 0.000192599 0" rotation="-180 -1.86693e-05 -180" shapeId="1" clipDistance="250" nodeId="33" castsShadows="true" receiveShadows="true" materialIds="7">
+          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="34" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="9"/>
         </Shape>
-        <Shape name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-180 -1.86693e-05 -180" shapeId="1" visibility="false" clipDistance="250" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="8">
-          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="53" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="9"/>
+        <Shape name="industrialSawmillRusted" translation="0 0.000192599 0" rotation="-180 -1.86693e-05 -180" shapeId="1" visibility="false" clipDistance="250" nodeId="35" castsShadows="true" receiveShadows="true" materialIds="8">
+          <Shape name="col" translation="-0.00739281 1.02211 2.27899" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="36" castsShadows="false" receiveShadows="false" distanceBlending="false" renderedInViewports="false" materialIds="9"/>
         </Shape>
-        <Shape name="plasticBox2" translation="0 0 -4.41191" shapeId="3" nodeId="169" castsShadows="true" receiveShadows="true" materialIds="175">
-          <Shape name="object_col" shapeId="4" static="true" nodeId="170" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-          <Shape name="iconWoodChipsDecal" translation="-0.215483 0.785014 0.951387" rotation="90 -0 6.33996e-05" scale="0.3 0.3 0.3" shapeId="5" clipDistance="100" nodeId="55" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6"/>
-          <Shape name="iconWoodChipsDecal" translation="0.211938 0.785015 -0.951573" rotation="-90 -0 180" scale="0.3 0.3 0.3" shapeId="5" clipDistance="100" nodeId="56" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6"/>
-          <Shape name="doublefillVolume" translation="-0.00018976 0 -0.000183869" scale="0.96 1 1.04" shapeId="6" nodeId="57" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-        </Shape>
-      </TransformGroup>
-      <TransformGroup name="clearAreas" nodeId="58">
-        <TransformGroup name="clearArea1Start" translation="-4.5 0 -6" nodeId="59">
-          <TransformGroup name="clearArea1Width" translation="0 0 12" nodeId="60"/>
-          <TransformGroup name="clearArea1Height" translation="6 0 0" nodeId="61"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="levelAreas" nodeId="62">
-        <TransformGroup name="levelArea1Start" translation="-4.5 0 -6" nodeId="63">
-          <TransformGroup name="levelArea1Width" translation="0 0 12" nodeId="64"/>
-          <TransformGroup name="levelArea1Height" translation="6 0 0" nodeId="65"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="indoorAreas" nodeId="66"/>
-      <TransformGroup name="testAreas" nodeId="67">
-        <TransformGroup name="testArea1Start" translation="-4.5 0 -6" nodeId="68">
-          <TransformGroup name="testArea1End" translation="6 2 12" nodeId="69"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="70">
-        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-4.5 0 -6" nodeId="71">
-          <TransformGroup name="tipOcclusionUpdateArea1End" translation="6 0 12" nodeId="72"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="triggers" nodeId="73">
-        <Shape name="infoTrigger" translation="1 0 0" scale="0.45 0.6 0.4" shapeId="7" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="74" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-        <TransformGroup name="teleportNode" translation="-2.37826 -1.44772 0" nodeId="75"/>
-        <Shape name="playerTrigger" translation="0 0 2.34985" shapeId="8" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" clipDistance="600" nodeId="76" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9">
-          <TransformGroup name="playerTriggerMarker" translation="-6.10352e-07 0.2 -3.05176e-07" scale="0.7 0.7 0.7" nodeId="77"/>
+        <Shape name="plasticBox2" translation="0 0 -4.41191" shapeId="3" clipDistance="250" nodeId="37" castsShadows="true" receiveShadows="true" materialIds="5">
+          <Shape name="object_col" shapeId="4" static="true" nodeId="38" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+          <Shape name="iconWoodChipsDecal" translation="-0.215483 0.785014 0.951387" rotation="90 -0 6.33996e-05" scale="0.3 0.3 0.3" shapeId="5" clipDistance="100" nodeId="39" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6"/>
+          <Shape name="iconWoodChipsDecal" translation="0.211938 0.785015 -0.951573" rotation="-90 -0 180" scale="0.3 0.3 0.3" shapeId="5" clipDistance="100" nodeId="40" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6"/>
+          <Shape name="doublefillVolume" translation="-0.00018976 0 -0.000183869" scale="0.96 1 1.04" shapeId="6" nodeId="41" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
         </Shape>
       </TransformGroup>
-      <TransformGroup name="collisions" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="78"/>
-      <TransformGroup name="sellingStation" translation="5.26166 0 0" nodeId="79">
-        <Shape name="unloadWoodTrigger" translation="-1.22545 0.0527426 0" shapeId="9" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000800" objectMask="0x1000000" nodeId="80" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-        <Shape name="unloadWoodPlayerTrigger" translation="-5 0.2 5.17205" shapeId="8" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" clipDistance="600" objectMask="0x100000" nodeId="81" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-        <TransformGroup name="unloadWoodPlayerTriggerMarker" translation="-5 0.2 5.17205" nodeId="82"/>
-        <TransformGroup name="unloadWoodTriggerMarker" translation="-1.3 0 0" nodeId="83"/>
-        <TransformGroup name="unloadWoodTriggerAINode" translation="-1.3 1.51833e-07 6.39083e-08" rotation="0 -5.00896e-06 0" nodeId="84"/>
-        <TransformGroup name="warningStripeGroup-wood" translation="-1.3 0 0" nodeId="85">
-          <Shape name="warningStripe" translation="3 0 5.5" shapeId="10" nodeId="86" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
-          <Shape name="warningStripe" translation="-3 0 5.5" shapeId="11" nodeId="87" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
-          <Shape name="warningStripe" translation="3 0 -5.5" shapeId="12" nodeId="88" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
-          <Shape name="warningStripe" translation="-3 0 -5.5" shapeId="13" nodeId="89" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
+      <TransformGroup name="clearAreas" nodeId="42">
+        <TransformGroup name="clearArea1Start" translation="-4.5 0 -6" nodeId="43">
+          <TransformGroup name="clearArea1Width" translation="0 0 12" nodeId="44"/>
+          <TransformGroup name="clearArea1Height" translation="6 0 0" nodeId="45"/>
         </TransformGroup>
-        <Shape name="unloadBulkTrigger" translation="-1.28594 0 0" shapeId="14" visibility="false" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="90" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-        <Shape name="unloadPalletTrigger" translation="-1.3 0 0.337722" rotation="-0 90 0" shapeId="15" visibility="false" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="91" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
       </TransformGroup>
-      <TransformGroup name="production" nodeId="92">
-        <TransformGroup name="woodchipLoad" nodeId="93">
-          <Shape name="loadWoodchipTrigger" translation="0 0.454644 -6.95394" shapeId="16" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" objectMask="0x1000000" nodeId="94" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
-          <TransformGroup name="loadWoodchipTriggerMarker" translation="0 0.657748 -6.46238" nodeId="95"/>
+      <TransformGroup name="levelAreas" nodeId="46">
+        <TransformGroup name="levelArea1Start" translation="-4.5 0 -6" nodeId="47">
+          <TransformGroup name="levelArea1Width" translation="0 0 12" nodeId="48"/>
+          <TransformGroup name="levelArea1Height" translation="6 0 0" nodeId="49"/>
         </TransformGroup>
-        <TransformGroup name="palletSpawners" translation="-2.45221 0 0" nodeId="96">
-          <TransformGroup name="spawner-1-pallet" translation="-2.32861e-07 0 4" rotation="-0 90 0" nodeId="97">
-            <TransformGroup name="spawnSpace1start" translation="-1.7 0 1.1" nodeId="98">
-              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="99"/>
+      </TransformGroup>
+      <TransformGroup name="indoorAreas" nodeId="50"/>
+      <TransformGroup name="testAreas" nodeId="51">
+        <TransformGroup name="testArea1Start" translation="-4.5 0 -6" nodeId="52">
+          <TransformGroup name="testArea1End" translation="6 2 12" nodeId="53"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="54">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-4.5 0 -6" nodeId="55">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="6 0 12" nodeId="56"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="triggers" nodeId="57">
+        <Shape name="infoTrigger" translation="1 0 0" scale="0.45 0.6 0.4" shapeId="7" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="58" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+        <TransformGroup name="teleportNode" translation="-2.37826 -1.44772 0" nodeId="59"/>
+        <Shape name="playerTrigger" translation="0 0 2.34985" shapeId="8" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" clipDistance="600" nodeId="60" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9">
+          <TransformGroup name="playerTriggerMarker" translation="-6.10352e-07 0.2 -3.05176e-07" scale="0.7 0.7 0.7" nodeId="61"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="collisions" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="62"/>
+      <TransformGroup name="sellingStation" translation="5.26166 0 0" nodeId="63">
+        <Shape name="unloadWoodTrigger" translation="-1.22545 0.0527426 0" shapeId="9" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000800" objectMask="0x1000000" nodeId="64" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+        <Shape name="unloadWoodPlayerTrigger" translation="-5 0.2 5.17205" shapeId="8" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" clipDistance="600" objectMask="0x100000" nodeId="65" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+        <TransformGroup name="unloadWoodPlayerTriggerMarker" translation="-5 0.2 5.17205" nodeId="66"/>
+        <TransformGroup name="unloadWoodTriggerMarker" translation="-1.3 0 0" nodeId="67"/>
+        <TransformGroup name="unloadWoodTriggerAINode" translation="-1.3 1.51833e-07 6.39083e-08" rotation="0 -5.00896e-06 0" nodeId="68"/>
+        <TransformGroup name="warningStripeGroup-wood" translation="-1.3 0 0" nodeId="69">
+          <Shape name="warningStripe" translation="3 0 5.5" shapeId="10" nodeId="70" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
+          <Shape name="warningStripe" translation="-3 0 5.5" shapeId="11" nodeId="71" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
+          <Shape name="warningStripe" translation="3 0 -5.5" shapeId="12" nodeId="72" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
+          <Shape name="warningStripe" translation="-3 0 -5.5" shapeId="13" nodeId="73" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="11"/>
+        </TransformGroup>
+        <Shape name="unloadBulkTrigger" translation="-1.28594 0 0" shapeId="14" visibility="false" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="74" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+        <Shape name="unloadPalletTrigger" translation="-1.3 0 0.337722" rotation="-0 90 0" shapeId="15" visibility="false" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="75" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+      </TransformGroup>
+      <TransformGroup name="production" nodeId="76">
+        <TransformGroup name="woodchipLoad" nodeId="77">
+          <Shape name="loadWoodchipTrigger" translation="0 0.454644 -6.95394" shapeId="16" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" objectMask="0x1000000" nodeId="78" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+          <TransformGroup name="loadWoodchipTriggerMarker" translation="0 0.657748 -6.46238" nodeId="79"/>
+        </TransformGroup>
+        <TransformGroup name="palletSpawners" translation="-2.45221 0 0" nodeId="80">
+          <TransformGroup name="spawner-1-pallet" translation="-2.32861e-07 0 4" rotation="-0 90 0" nodeId="81">
+            <TransformGroup name="spawnSpace1start" translation="-1.7 0 1.1" nodeId="82">
+              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="83"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace2start" translation="-1.7 0.75 1.1" nodeId="100">
-              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="101"/>
+            <TransformGroup name="spawnSpace2start" translation="-1.7 0.75 1.1" nodeId="84">
+              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="85"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace3start" translation="-1.7 1.5 1.1" nodeId="102">
-              <TransformGroup name="spawnSpace3end" translation="3 0 2.27374e-15" nodeId="103"/>
+            <TransformGroup name="spawnSpace3start" translation="-1.7 1.5 1.1" nodeId="86">
+              <TransformGroup name="spawnSpace3end" translation="3 0 2.27374e-15" nodeId="87"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace4start" translation="-1.7 0 0" nodeId="104">
-              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="105"/>
+            <TransformGroup name="spawnSpace4start" translation="-1.7 0 0" nodeId="88">
+              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="89"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace5start" translation="-1.7 0.75 0" nodeId="106">
-              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="107"/>
+            <TransformGroup name="spawnSpace5start" translation="-1.7 0.75 0" nodeId="90">
+              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="91"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace6start" translation="-1.7 1.5 0" nodeId="108">
-              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="109"/>
+            <TransformGroup name="spawnSpace6start" translation="-1.7 1.5 0" nodeId="92">
+              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="93"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace7start" translation="-1.7 0 -1.1" nodeId="110">
+            <TransformGroup name="spawnSpace7start" translation="-1.7 0 -1.1" nodeId="94">
+              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="95"/>
+            </TransformGroup>
+            <TransformGroup name="spawnSpace8start" translation="-1.7 0.75 -1.1" nodeId="96">
+              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="97"/>
+            </TransformGroup>
+            <TransformGroup name="spawnSpace9start" translation="-1.7 1.5 -1.1" nodeId="98">
+              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="99"/>
+            </TransformGroup>
+            <TransformGroup name="warningStripeGroup-3x3" nodeId="100">
+              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="101" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="102" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="103" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="104" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="spawner-2-woodbeam" translation="-2.38419e-07 0 0" rotation="-0 90 0" nodeId="105">
+            <TransformGroup name="spawnSpace1start" translation="-1.5 0 1.1" nodeId="106">
+              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="107"/>
+            </TransformGroup>
+            <TransformGroup name="spawnSpace2start" translation="-1.5 1.8 1.1" nodeId="108">
+              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="109"/>
+            </TransformGroup>
+            <TransformGroup name="spawnSpace3start" translation="-1.5 0 0" nodeId="110">
               <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="111"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace8start" translation="-1.7 0.75 -1.1" nodeId="112">
+            <TransformGroup name="spawnSpace4start" translation="-1.5 1.8 0" nodeId="112">
               <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="113"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace9start" translation="-1.7 1.5 -1.1" nodeId="114">
-              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="115"/>
+            <TransformGroup name="spawnSpace5start" translation="-1.5 0 -1.1" nodeId="114">
+              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="115"/>
             </TransformGroup>
-            <TransformGroup name="warningStripeGroup-3x3" nodeId="116">
-              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="117" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="118" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="119" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="120" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+            <TransformGroup name="spawnSpace6start" translation="-1.5 1.8 -1.1" nodeId="116">
+              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="117"/>
+            </TransformGroup>
+            <TransformGroup name="warningStripeGroup-3x3" nodeId="118">
+              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="119" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="120" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="121" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="122" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="spawner-2-woodbeam" translation="-2.38419e-07 0 0" rotation="-0 90 0" nodeId="121">
-            <TransformGroup name="spawnSpace1start" translation="-1.5 0 1.1" nodeId="122">
-              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="123"/>
+          <TransformGroup name="spawner-3-boards" translation="-2.38419e-07 0 -4" rotation="-0 90 0" nodeId="123">
+            <TransformGroup name="spawnSpace1start" translation="-1.4 0 1.1" nodeId="124">
+              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="125"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace2start" translation="-1.5 1.8 1.1" nodeId="124">
-              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="125"/>
+            <TransformGroup name="spawnSpace2start" translation="-1.4 1 1.1" nodeId="126">
+              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="127"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace3start" translation="-1.5 0 0" nodeId="126">
-              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="127"/>
+            <TransformGroup name="spawnSpace3start" translation="-1.4 2 1.1" nodeId="128">
+              <TransformGroup name="spawnSpace3end" translation="3 0 2.27374e-15" nodeId="129"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace4start" translation="-1.5 1.8 0" nodeId="128">
-              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="129"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace5start" translation="-1.5 0 -1.1" nodeId="130">
+            <TransformGroup name="spawnSpace4start" translation="-1.4 0 0" nodeId="130">
               <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="131"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace6start" translation="-1.5 1.8 -1.1" nodeId="132">
+            <TransformGroup name="spawnSpace5start" translation="-1.4 1 0" nodeId="132">
               <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="133"/>
             </TransformGroup>
-            <TransformGroup name="warningStripeGroup-3x3" nodeId="134">
-              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="135" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="136" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="137" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="138" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+            <TransformGroup name="spawnSpace6start" translation="-1.4 2 0" nodeId="134">
+              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="135"/>
             </TransformGroup>
-          </TransformGroup>
-          <TransformGroup name="spawner-3-boards" translation="-2.38419e-07 0 -4" rotation="-0 90 0" nodeId="139">
-            <TransformGroup name="spawnSpace1start" translation="-1.4 0 1.1" nodeId="140">
-              <TransformGroup name="spawnSpace1end" translation="3 0 2.27374e-15" nodeId="141"/>
+            <TransformGroup name="spawnSpace7start" translation="-1.4 0 -1.1" nodeId="136">
+              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="137"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace2start" translation="-1.4 1 1.1" nodeId="142">
-              <TransformGroup name="spawnSpace2end" translation="3 0 2.27374e-15" nodeId="143"/>
+            <TransformGroup name="spawnSpace8start" translation="-1.4 1 -1.1" nodeId="138">
+              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="139"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace3start" translation="-1.4 2 1.1" nodeId="144">
-              <TransformGroup name="spawnSpace3end" translation="3 0 2.27374e-15" nodeId="145"/>
+            <TransformGroup name="spawnSpace9start" translation="-1.4 2 -1.1" nodeId="140">
+              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="141"/>
             </TransformGroup>
-            <TransformGroup name="spawnSpace4start" translation="-1.4 0 0" nodeId="146">
-              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="147"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace5start" translation="-1.4 1 0" nodeId="148">
-              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="149"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace6start" translation="-1.4 2 0" nodeId="150">
-              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="151"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace7start" translation="-1.4 0 -1.1" nodeId="152">
-              <TransformGroup name="spawnSpace4end" translation="3 0 2.27374e-15" nodeId="153"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace8start" translation="-1.4 1 -1.1" nodeId="154">
-              <TransformGroup name="spawnSpace5end" translation="3 0 2.27374e-15" nodeId="155"/>
-            </TransformGroup>
-            <TransformGroup name="spawnSpace9start" translation="-1.4 2 -1.1" nodeId="156">
-              <TransformGroup name="spawnSpace6end" translation="3 0 2.27374e-15" nodeId="157"/>
-            </TransformGroup>
-            <TransformGroup name="warningStripeGroup-3x3" nodeId="158">
-              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="159" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="160" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="161" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
-              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="162" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+            <TransformGroup name="warningStripeGroup-3x3" nodeId="142">
+              <Shape name="warningStripe" translation="1.5 0 1.5" shapeId="10" nodeId="143" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 1.5" shapeId="17" nodeId="144" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="1.5 0 -1.5" shapeId="18" nodeId="145" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
+              <Shape name="warningStripe" translation="-1.5 0 -1.5" shapeId="13" nodeId="146" castsShadows="false" receiveShadows="true" nonRenderable="true" distanceBlending="false" terrainDecal="true" materialIds="10"/>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
