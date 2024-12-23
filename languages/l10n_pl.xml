@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>
+        <translationContributor>Lisek</translationContributor>
+    </translationContributors>
+    <texts>
+        <text name="shopItem_industrialSawmill" text="Tartak przemysłowy (Produkcja)" />
+        <text name="shopItem_industrialSawmillSell" text="Tartak przemysłowy (Sprzedaj tutaj)" />
+        <text name="shopItem_industrialSawmillBuy" text="Tartak przemysłowy (Kup tutaj)" />
+        <text name="shopItem_industrialSawmillBuySell" text"Tartak przemysłowy (Magazyn)" />
+           
+        <text name="function_woodProductSell" text="Sprzedawaj bezpośrednio drewno, drewniane produkty na paletach i zrębki!" />
+        <text name="function_woodProductBuy" text="Nie chcesz zajmować się leśnictwem? Kup tutaj drewniane produkty na paletach!" />
+        
+        <text name="configuration_visual" text="Wizualizacja tartaku" />
+        <text name="configuration_rusted" text="Zardzewiały, ale niezawodny" />
+
+        <text name="delivery" text="Dostawa" />
+    </texts>
+</l10n>
