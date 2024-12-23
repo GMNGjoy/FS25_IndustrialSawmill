@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <modDesc descVersion="93">
     <author>GMNGjoy</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>
         <en>Industrial Sawmill</en>
         <de>Industrielles Sägewerk</de>
@@ -50,6 +50,9 @@ If you wish to place a shed over the sawmill - place the shed first, then using 
 
 For license & feedback, please visit
 GitHub link: https://github.com/GMNGjoy/FS25_IndustrialSawmill
+
+Changelog 1.0.0.1:
+- Extended size of woodchips trigger.
 ]]></en>
         <de><![CDATA[
 Bist du es leid, über die gesamte Karte zu fahren, um dein Holz zu verkaufen, oder willst du ein kleines und effizientes Sägewerk direkt auf deinem Hof? Dann ist diese Mod genau das Richtige für dich.

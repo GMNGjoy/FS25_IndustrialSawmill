@@ -107,7 +107,7 @@
       </TransformGroup>
       <TransformGroup name="collisions" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="62"/>
       <TransformGroup name="sellingStation" translation="5.26166 0 0" nodeId="63">
-        <Shape name="unloadWoodTrigger" translation="-1.22545 0.0527426 0" shapeId="9" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000800" objectMask="0x1000000" nodeId="64" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+        <Shape name="unloadWoodTrigger" translation="-1.22545 0.0527426 0" shapeId="9" visibility="false" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000800" objectMask="0x1000000" nodeId="64" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
         <Shape name="unloadWoodPlayerTrigger" translation="-5 0.2 5.17205" shapeId="8" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" clipDistance="600" objectMask="0x100000" nodeId="65" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
         <TransformGroup name="unloadWoodPlayerTriggerMarker" translation="-5 0.2 5.17205" nodeId="66"/>
         <TransformGroup name="unloadWoodTriggerMarker" translation="-1.3 0 0" nodeId="67"/>
@@ -123,7 +123,7 @@
       </TransformGroup>
       <TransformGroup name="production" nodeId="76">
         <TransformGroup name="woodchipLoad" nodeId="77">
-          <Shape name="loadWoodchipTrigger" translation="0 0.454644 -6.95394" shapeId="16" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" objectMask="0x1000000" nodeId="78" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
+          <Shape name="loadWoodchipTrigger" translation="0 0.965296 -6.95394" shapeId="16" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" objectMask="0x1000000" nodeId="78" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="9"/>
           <TransformGroup name="loadWoodchipTriggerMarker" translation="0 0.657748 -6.46238" nodeId="79"/>
         </TransformGroup>
         <TransformGroup name="palletSpawners" translation="-2.45221 0 0" nodeId="80">
