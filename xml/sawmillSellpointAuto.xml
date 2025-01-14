@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/placeable.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="xml/sawmillSellpoint.xml">
+        <attributes>
+            <!-- update storedata -->
+            <set path="placeable.storeData.name" value="$shopItem_industrialSawmillSellAuto"/>
+            <set path="placeable.storeData.price" value="2050"/>
+            <set path="placeable.sellingStation.woodTrigger#autoUnload" value="true" />
+            <remove path="placeable.triggerMarkers.triggerMarker(0)" />
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>$shopItem_industrialSawmillSellAuto</name>
+        <image>icons/store_industrialSawmillProduction.png</image>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>sellingPoints</category>
+    </storeData>
+</placeable>

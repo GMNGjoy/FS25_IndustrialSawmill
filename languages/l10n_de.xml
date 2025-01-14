@@ -7,7 +7,7 @@
         <text name="shopItem_industrialSawmill" text="Industrielles Sägewerk (Produktion)" />
         <text name="shopItem_industrialSawmillSell" text="Industrielles Sägewerk (Ankauf)" />
         <text name="shopItem_industrialSawmillBuy" text="Industrielles Sägewerk (Verkauf)" />
-        <text name="shopItem_industrialSawmillBuySell" text="Industrielles Sägewerk (Händler)" />
+        <text name="shopItem_industrialSawmillWarehouse" text="Industrielles Sägewerk (Händler)" />
            
         <text name="function_woodProductSell" text="Verkaufe hier Holz, Holzprodukte auf Palleten und Großmengen an Hackschnitzeln!" />
         <text name="function_woodProductBuy" text="Keine Lust auf Forstwirtschaft? Hier kannst du Holzprodukte auf Palleten kaufen!" />

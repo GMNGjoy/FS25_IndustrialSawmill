@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <modDesc descVersion="94">
     <author>GMNGjoy</author>
-    <version>1.0.0.2</version>
+    <version>1.0.1.0</version>
     <title>
         <en>Industrial Sawmill</en>
         <de>Industrielles Sägewerk</de>
@@ -23,27 +23,29 @@ Production Recipes:
 - Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
 Configurations: Visual (Default | Rusty but trusty) 
 
-INDUSTRIAL SAWMILL SELL
+INDUSTRIAL SAWMILL (Sell)
 Category: Sellpoints
 Price: $2,000
 Monthly upkeep: $3
 Products Accepted: Wood, Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations:  Visual (Default | Rusty but trusty)
 
-INDUSTRIAL SAWMILL BUY
+INDUSTRIAL SAWMILL (Buy)
 Category: Containers
 Price: $4,000
 Monthly upkeep: $3
 Products Sold: Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations:  Visual (Default | Rusty but trusty)
 
-INDUSTRIAL SAWMILL BUY & SELL
+INDUSTRIAL SAWMILL (Warehouse)
 Category: Sellpoints
 Price: $6,000
 Monthly upkeep: $6
 Products Accepted: Wood, Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Products Sold: Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations: Visual (Default | Rusty but trusty)
+
+Alternate Versions available for the Production, Sellpoint and Warehouse with autoUnload for wood, for $50 more.
 
 Placement Note:
 If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
@@ -56,6 +58,9 @@ Changelog 1.0.0.1:
 
 Changelog 1.0.0.2:
 - Added Polish translation from Lisek
+
+Changelog 1.0.1.0:
+- Added alternate versions for the Production, Sellpoint and Warehouse with auto-unload.
 ]]></en>
         <de><![CDATA[
 Bist du es leid, über die gesamte Karte zu fahren, um dein Holz zu verkaufen, oder willst du ein kleines und effizientes Sägewerk direkt auf deinem Hof? Dann ist diese Mod genau das Richtige für dich.
