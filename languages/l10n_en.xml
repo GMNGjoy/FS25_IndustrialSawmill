@@ -6,11 +6,8 @@
         <text name="shopItem_industrialSawmillSell" text="Industrial Sawmill (Sell Here)" />
         <text name="shopItem_industrialSawmillBuy" text="Industrial Sawmill (Buy Here)" />
         <text name="shopItem_industrialSawmillWarehouse" text="Industrial Sawmill (Warehouse)" />
-
         <text name="shopItem_industrialSawmillAuto" text="Industrial Sawmill (Production, Auto)" />
-        <text name="shopItem_industrialSawmillSellAuto" text="Industrial Sawmill (Sell Here, Auto)" />
-        <text name="shopItem_industrialSawmillWarehouseAuto" text="Industrial Sawmill (Warehouse, Auto)" />
-           
+        
         <text name="function_woodProductSell" text="Direct sell wood, palletized wood products and wood chips!" />
         <text name="function_woodProductBuy" text="Don't want to do forestry? Buy palletized wood products here!" />
         

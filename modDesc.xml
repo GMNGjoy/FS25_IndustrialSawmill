@@ -21,7 +21,8 @@ Production Recipes:
 - Wood (Planks Long) (240 cycles / Month, $48 / Month) : 100 Wood = 93 Planks Long + 7 Wood Chips
 - Wood (Wood Beam) (240 cycles / Month, $48 / Month) : 100 Wood = 94 Wood Beam + 6 Wood Chips
 - Wood Delivery (240 cycles / Month, $12 / Month) : 100 Wood = 100 Wood
-Configurations: Visual (Default | Rusty but trusty) 
+Configurations: Visual (Default | Rusty but trusty)
+Alternate: "Auto" version with auto-unload for wood, for $50 more.
 
 INDUSTRIAL SAWMILL (Sell)
 Category: Sellpoints
@@ -45,22 +46,16 @@ Products Accepted: Wood, Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chi
 Products Sold: Planks, Planks Long, Wood Beams, Prefab Walls, Wood Chips
 Configurations: Visual (Default | Rusty but trusty)
 
-Alternate Versions available for the Production, Sellpoint and Warehouse with autoUnload for wood, for $50 more.
-
 Placement Note:
 If you wish to place a shed over the sawmill - place the shed first, then using free-placement mode, place the sawmill under the shed.
 
 For license & feedback, please visit
 GitHub link: https://github.com/GMNGjoy/FS25_IndustrialSawmill
 
-Changelog 1.0.0.1:
-- Extended size of woodchips trigger.
-
-Changelog 1.0.0.2:
-- Added Polish translation from Lisek
-
 Changelog 1.0.1.0:
-- Added alternate versions for the Production, Sellpoint and Warehouse with auto-unload.
+- Extended size of woodchips trigger.
+- Added Polish translation from Lisek
+- Added alternate version of the Production with auto-unload.
 ]]></en>
         <de><![CDATA[
 Bist du es leid, über die gesamte Karte zu fahren, um dein Holz zu verkaufen, oder willst du ein kleines und effizientes Sägewerk direkt auf deinem Hof? Dann ist diese Mod genau das Richtige für dich.
@@ -113,6 +108,7 @@ GitHub-Link: https://github.com/GMNGjoy/FS25_IndustrialSawmill
         <storeItem xmlFilename="xml/sawmillSellpoint.xml"/>
         <storeItem xmlFilename="xml/sawmillBuypoint.xml"/>
         <storeItem xmlFilename="xml/sawmillWarehouse.xml"/>
+        <storeItem xmlFilename="xml/sawmillProductionAuto.xml"/>
     </storeItems>
     <l10n filenamePrefix="languages/l10n"/>
 </modDesc>
