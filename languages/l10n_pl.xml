@@ -8,6 +8,7 @@
         <text name="shopItem_industrialSawmillSell" text="Tartak przemysłowy (Sprzedaj tutaj)" />
         <text name="shopItem_industrialSawmillBuy" text="Tartak przemysłowy (Kup tutaj)" />
         <text name="shopItem_industrialSawmillWarehouse" text="Tartak przemysłowy (Magazyn)" />
+		<text name="shopItem_industrialSawmillAuto" text="Tartak przemysłowy (Produkcja, Auto)" />
            
         <text name="function_woodProductSell" text="Sprzedawaj bezpośrednio drewno, drewniane produkty na paletach i zrębki!" />
         <text name="function_woodProductBuy" text="Nie chcesz zajmować się leśnictwem? Kup tutaj drewniane produkty na paletach!" />
